@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.summary = %q{Generic Amazon Product Advertising Ruby API.}
   s.description = %q{Generic Amazon Product Advertising Ruby API.}
 
-  s.add_runtime_dependency "nokogiri", "~> 1.4"
-  s.add_runtime_dependency "ruby-hmac", "~> 0.3"
+  s.add_dependency "nokogiri", "~> 1.4"
+  s.add_dependency "ruby-hmac", "~> 0.3"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
